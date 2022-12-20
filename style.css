@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;    
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 10%;
+    font-family: sans-serif;
+    color: #530360;
+}
+
+.main p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: gray;
+    padding: 10px;
+
+}
+
+.container {
+    width: 50%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: #530360;
+    border: 1px solid rgb(188, 184, 184);
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+#newtask {
+    position: relative;
+}
+
+#newtask input {
+    width: 75%;
+    height: 45px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #00D8FF;
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0faaf2;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+#newtask button:hover {
+    background-color: rgb(6, 175, 6);    
+}
+
+#tasks {
+    margin-top: 50px;
+    margin-left: 80px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 70%;
+    position: fixed;
+}
+
+.task {
+    background-color: #f5f5f5;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.task span {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #1c182b;
+    color: #fe4cff;
+    box-shadow: 2px solid black;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    outline: none;
+}
+
+.task button:hover{
+    background-color: red;
+    color: black;
+}
+.completed {
+    text-decoration: line-through;
+}
