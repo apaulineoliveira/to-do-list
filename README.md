@@ -11,9 +11,9 @@
 <code>${document.querySelector('#taskInput').value}</code> 
 <li>No mesmo bloco de código da função condicional citada acima encontra-se o um <code>button</code> que permite deletar a nota. Na construção desse botão foi utilizado o bootstrap.</li> <br>
 <li>O bloco de código para determinar as funcionalidades da exclusão do botão foi fundamentado, a priori, com <code>document.querySelectorAll</code>, logo após a implementação de um loop e em seguida, utilizei a propriedade <code>parentNode</code> que é uma propriedade somente leitura retorna o nome do nó pai selecionado como um objeto de nó.</li>
+<br></br>
+<br></br>
 
-
-<h1>In English</h1>
 
 <h1>🤖 Goal</h1>
 
